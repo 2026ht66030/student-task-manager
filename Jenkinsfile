@@ -28,7 +28,7 @@ pipeline {
                 echo 'Running python test'
                 sh ''' 
 
-                    .venv/bin/pythom -m pytest 
+                    .venv/bin/python3 -m pytest 
 
                 ''' 
             }
